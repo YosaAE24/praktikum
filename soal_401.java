@@ -8,14 +8,10 @@ public class soal_401 {
         System.out.println();
         System.out.println ("PROGRAM MENAMPILKAN BILANGAN PRIMA");
         Scanner input = new Scanner(System.in);
-        int bil, awal, akhir;
+        int bil;
 
-        System.out.print("Mulai dari : ");
-        awal=input.nextInt();
-        System.out.print("Sampai : ");
-        akhir=input.nextInt();
         System.out.println("----------------------------------------------");
-        for (int i=awal; i<=akhir; i++){
+        for (int i=1; i<=100; i++){
             bil=0;
             for (int j=1;j<=i;j++){
                 if (i%j==0){

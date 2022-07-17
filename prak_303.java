@@ -7,13 +7,13 @@ public class prak_303 {
         System.out.println("Masukkan sebuah bilangan : ");
         int bil = masukan.nextInt();
         boolean prima = true;
-        for(int i=4; i<bil; i++){
+        for(int i=2; i<bil; i++){
             if ((bil % i)== 0) {
                 prima = false; break;}
         }
         if (prima)
-            System.out.print(bil + " Bilang yang dapat dibagi 4");
+            System.out.print(bil + " adalah bilangan PRIMA");
         else
-            System.out.print(bil + "  Bilang yang tidak dapat dibagi 4");
+            System.out.print(bil + " adalah BUKAN bilangan PRIMA");
     }
 }

@@ -6,13 +6,9 @@ public class prak_304 {
         Scanner masukan = new Scanner(System.in);
         System.out.println("Masukkan batas bilangannya : ");
         int batas = masukan.nextInt();
-        int kelipatan = masukan.nextInt();
-
-        for( int i=kelipatan; i<=batas; i = i + kelipatan)
-            System.out.println(i);
-//            if (i == batas) {
-//                System.out.println("Total jumlahnya adalah : " + i);
-//                break;
-//            }
+        int hasil = 0;
+        for( int i=1; i<=batas; i++)
+            hasil += i;
+        System.out.println("Total jumlahnya adalah : " + hasil);
     }
 }
